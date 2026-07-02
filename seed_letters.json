@@ -1,0 +1,85 @@
+{
+  "comment": "Curated seed so the feed is never empty. Letters with 'date' use it as pubDate; without it, discovery date is used (see README).",
+  "letters": [
+    {
+      "company": "Berkshire Hathaway",
+      "company_id": "brk",
+      "title": "Annual Shareholder Letter",
+      "year": 2024,
+      "link": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+      "date": "2025-02-22T12:00:00+00:00"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "company_id": "brk",
+      "title": "Annual Shareholder Letter",
+      "year": 2023,
+      "link": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+      "date": "2024-02-24T12:00:00+00:00"
+    },
+    {
+      "company": "Berkshire Hathaway",
+      "company_id": "brk",
+      "title": "Annual Shareholder Letter",
+      "year": 2022,
+      "link": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
+      "date": "2023-02-25T12:00:00+00:00"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "company_id": "jpm",
+      "title": "Jamie Dimon's Letter to Shareholders",
+      "year": 2024,
+      "link": "https://reports.jpmorganchase.com/investor-relations/2024/ar-ceo-letters.htm",
+      "date": "2025-04-07T12:00:00+00:00"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "company_id": "jpm",
+      "title": "Jamie Dimon's Letter to Shareholders",
+      "year": 2023,
+      "link": "https://reports.jpmorganchase.com/investor-relations/2023/ar-ceo-letters.htm",
+      "date": "2024-04-08T12:00:00+00:00"
+    },
+    {
+      "company": "Amazon",
+      "company_id": "amzn",
+      "title": "Shareholder Letter",
+      "year": 2023,
+      "link": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/ar/Amazon-com-Inc-2023-Shareholder-Letter.pdf",
+      "date": "2024-04-11T12:00:00+00:00"
+    },
+    {
+      "company": "Amazon",
+      "company_id": "amzn",
+      "title": "Shareholder Letter",
+      "year": 2022,
+      "link": "https://s2.q4cdn.com/299287126/files/doc_financials/2023/ar/2022-Shareholder-Letter.pdf",
+      "date": "2023-04-13T12:00:00+00:00"
+    },
+    {
+      "company": "Markel Group",
+      "company_id": "mkl",
+      "title": "Letter to Business Partners",
+      "year": 2024,
+      "link": "https://content.markel.com/api/public/content/shareholder-letter-2024",
+      "date": "2025-03-03T12:00:00+00:00"
+    },
+    {
+      "company": "Markel Group",
+      "company_id": "mkl",
+      "title": "Letter to Business Partners",
+      "year": 2023,
+      "link": "https://content.markel.com/api/public/content/shareholder-letter-2023",
+      "date": "2024-03-04T12:00:00+00:00"
+    },
+    {
+      "company": "Constellation Software",
+      "company_id": "csi",
+      "title": "2021 President's Letter",
+      "year": 2021,
+      "link": "https://www.csisoftware.com/wp-content/uploads/2026/04/letter-to-shareholders-february-15-2021.pdf",
+      "date": "2021-02-15T12:00:00+00:00"
+    }
+  ]
+}

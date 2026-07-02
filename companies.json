@@ -1,0 +1,81 @@
+{
+  "feed": {
+    "title": "Shareholder Letters",
+    "link": "https://raw.githubusercontent.com/meguiretj-commits/letters-feed/main/feed.xml",
+    "description": "New shareholder letters from Berkshire Hathaway, JPMorgan, Amazon, Constellation Software, and Markel Group."
+  },
+  "companies": [
+    {
+      "id": "brk",
+      "name": "Berkshire Hathaway",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://www.berkshirehathaway.com/letters/{year}ltr.pdf",
+        "letter_title": "Annual Shareholder Letter",
+        "start_year": 2019
+      }
+    },
+    {
+      "id": "jpm",
+      "name": "JPMorgan Chase",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://reports.jpmorganchase.com/investor-relations/{year}/ar-ceo-letters.htm",
+        "letter_title": "Jamie Dimon's Letter to Shareholders",
+        "start_year": 2019
+      }
+    },
+    {
+      "id": "amzn",
+      "name": "Amazon",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://s2.q4cdn.com/299287126/files/doc_financials/{next_year}/ar/Amazon-com-Inc-{year}-Shareholder-Letter.pdf",
+        "letter_title": "Shareholder Letter",
+        "start_year": 2022
+      }
+    },
+    {
+      "id": "mkl",
+      "name": "Markel Group",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://content.markel.com/api/public/content/shareholder-letter-{year}",
+        "letter_title": "Letter to Business Partners",
+        "start_year": 2022
+      }
+    },
+    {
+      "id": "csi",
+      "name": "Constellation Software",
+      "strategy": "parse_index",
+      "parse": {
+        "index_url": "https://www.csisoftware.com/category/pres-letters",
+        "item_regex": "<a href=\"(https://www\\.csisoftware\\.com/wp-content/uploads/[^\"]+\\.pdf)\"[^>]*>([^<]*President[^<]*Letter[^<]*)</a>",
+        "date_regex": "([A-Z][a-z]+ \\d{1,2}, \\d{4})",
+        "date_format": "%B %d, %Y",
+        "strip_prefix": "^Constellation Software( Inc\\.?)?\\s*"
+      }
+    },
+    {
+      "id": "jpm2",
+      "name": "JPMorgan Chase",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://www.jpmorganchase.com/ir/annual-report/{year}/ar-ceo-letters",
+        "letter_title": "Jamie Dimon's Letter to Shareholders",
+        "start_year": 2025
+      }
+    },
+    {
+      "id": "amzn2",
+      "name": "Amazon",
+      "strategy": "probe",
+      "probe": {
+        "url_template": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-{year}-letter-to-shareholders",
+        "letter_title": "Shareholder Letter",
+        "start_year": 2024
+      }
+    }
+  ]
+}
